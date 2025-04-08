@@ -88,4 +88,15 @@ const myUser =  {
 
 
 //check whether this key exists or not
-console.log(myUser.hasOwnProperty('age'));
+// console.log(myUser.hasOwnProperty('age'));
+ 
+
+// destructuring of objects
+
+//usaual syatax
+console.log(myUser.name);
+
+// destructure object
+const {name : i} = myUser;
+console.log(i);
+
