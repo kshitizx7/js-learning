@@ -16,14 +16,14 @@
  
 //Object in function
 
-function handleObject(obj) {
-    console.log(`Username ${obj.UserName} and price is ${obj.price}`)
-}
+// function handleObject(obj) {
+//     console.log(`Username ${obj.UserName} and price is ${obj.price}`)
+// }
 
-const obj =  {
-    UserName : "Kshitiz Sharma",
-    price : 1700
-}
+// const obj =  {
+//     UserName : "Kshitiz Sharma",
+//     price : 1700
+// }
 
 // handleObject(obj);
 // handleObject({
@@ -31,10 +31,31 @@ const obj =  {
 //     price : "120000"
 // })
 
-function handelArray(myArr) {
-    for(let i=0; i<myArr.length; i++) {
-        console.log(myArr[i]);
-    }   
+// function handelArray(myArr) {
+//     for(let i=0; i<myArr.length; i++) {
+//         console.log(myArr[i]);
+//     }   
+// }
+// myNewArray = [100,200,300,400,500];
+// handelArray(myNewArray)
+
+
+
+
+
+// new Type of functin decleration 
+// in this type of decleration we can not use the funcion above its decleration
+
+// num = addNum(11);
+// console.log(num);
+
+// const addNum = function(num) {
+//     return num + 10
+// }
+
+
+
+print();
+function print() {
+    console.log("Hello Kshitz ! ");   
 }
-myNewArray = [100,200,300,400,500];
-handelArray(myNewArray)
