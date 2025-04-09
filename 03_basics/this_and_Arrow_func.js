@@ -51,6 +51,7 @@
 // console.log(addTwo(12,5));
 
 //implitcit return
+//in implicit return there is no need for return statement
 // const addTwo = (num1,num2) => (num1 + num2);
 
 // console.log(addTwo(12,5));
